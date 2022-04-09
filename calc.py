@@ -11,3 +11,6 @@ def divison(x, y):
     if y == 0:
         raise ValueError('cannot divided by zero')
     return x / y
+
+def modulo(x, y):
+    return x % y
