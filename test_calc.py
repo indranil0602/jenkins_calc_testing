@@ -32,8 +32,8 @@ class TestCalc(unittest.TestCase):
     def test_modulo(self):
         self.assertEqual(calc.modulo(11, 5), 1)
         self.assertEqual(calc.modulo(10, 5), 0)
-        self.assertEqual(calc.modulo(-11, 5), -1)
-        self.assertEqual(calc.modulo(11, -5), 1)
+        self.assertEqual(calc.modulo(-11, 5), 4)
+        self.assertEqual(calc.modulo(11, -5), -4)
 
 if __name__ == '__main__':
     unittest.main()
