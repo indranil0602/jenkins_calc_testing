@@ -14,3 +14,6 @@ def divison(x, y):
 
 def modulo(x, y):
     return x % y
+
+def power(x, y):
+    return x ** y
